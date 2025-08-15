@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "9ab84abf",
+   "id": "8f293cce",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-08-14T02:41:41.346875Z",
-     "iopub.status.busy": "2025-08-14T02:41:41.346629Z",
-     "iopub.status.idle": "2025-08-14T02:41:42.598283Z",
-     "shell.execute_reply": "2025-08-14T02:41:42.597462Z"
+     "iopub.execute_input": "2025-08-15T06:59:56.245839Z",
+     "iopub.status.busy": "2025-08-15T06:59:56.245554Z",
+     "iopub.status.idle": "2025-08-15T06:59:58.026901Z",
+     "shell.execute_reply": "2025-08-15T06:59:58.025958Z"
     },
     "papermill": {
-     "duration": 1.257049,
-     "end_time": "2025-08-14T02:41:42.599310",
+     "duration": 1.787554,
+     "end_time": "2025-08-15T06:59:58.028267",
      "exception": false,
-     "start_time": "2025-08-14T02:41:41.342261",
+     "start_time": "2025-08-15T06:59:56.240713",
      "status": "completed"
     },
     "tags": []
@@ -56,19 +56,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "83b3a8c6",
+   "id": "e777ee98",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-08-14T02:41:42.605406Z",
-     "iopub.status.busy": "2025-08-14T02:41:42.605102Z",
-     "iopub.status.idle": "2025-08-14T02:42:27.846464Z",
-     "shell.execute_reply": "2025-08-14T02:42:27.845834Z"
+     "iopub.execute_input": "2025-08-15T06:59:58.036007Z",
+     "iopub.status.busy": "2025-08-15T06:59:58.035670Z",
+     "iopub.status.idle": "2025-08-15T07:01:11.088949Z",
+     "shell.execute_reply": "2025-08-15T07:01:11.088177Z"
     },
     "papermill": {
-     "duration": 45.245896,
-     "end_time": "2025-08-14T02:42:27.847746",
+     "duration": 73.059288,
+     "end_time": "2025-08-15T07:01:11.090782",
      "exception": false,
-     "start_time": "2025-08-14T02:41:42.601850",
+     "start_time": "2025-08-15T06:59:58.031494",
      "status": "completed"
     },
     "tags": []
@@ -714,19 +714,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "68206e43",
+   "id": "a684b5ea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-08-14T02:42:27.866318Z",
-     "iopub.status.busy": "2025-08-14T02:42:27.866117Z",
-     "iopub.status.idle": "2025-08-14T02:44:13.868385Z",
-     "shell.execute_reply": "2025-08-14T02:44:13.867582Z"
+     "iopub.execute_input": "2025-08-15T07:01:11.114615Z",
+     "iopub.status.busy": "2025-08-15T07:01:11.114301Z",
+     "iopub.status.idle": "2025-08-15T07:03:43.908258Z",
+     "shell.execute_reply": "2025-08-15T07:03:43.907466Z"
     },
     "papermill": {
-     "duration": 106.021427,
-     "end_time": "2025-08-14T02:44:13.878006",
+     "duration": 152.817236,
+     "end_time": "2025-08-15T07:03:43.919536",
      "exception": false,
-     "start_time": "2025-08-14T02:42:27.856579",
+     "start_time": "2025-08-15T07:01:11.102300",
      "status": "completed"
     },
     "tags": []
@@ -759,13 +759,13 @@
       "RandomForest: 0.8361 (+/- 0.0519)\n",
       "ExtraTrees: 0.8215 (+/- 0.0540)\n",
       "GradientBoosting: 0.8395 (+/- 0.0498)\n",
-      "LogisticRegression: 0.6824 (+/- 0.0561)\n",
+      "LogisticRegression: 0.6768 (+/- 0.0513)\n",
       "SVM: 0.5713 (+/- 0.0897)\n",
       "KNN: 0.6891 (+/- 0.0879)\n",
       "\n",
       "🎯 CREATING ENSEMBLE MODEL\n",
       "============================================================\n",
-      "Ensemble CV Score: 0.8372 (+/- 0.0709)\n",
+      "Ensemble CV Score: 0.8349 (+/- 0.0729)\n",
       "\n",
       "⚖️ WEIGHTED ENSEMBLE PREDICTIONS\n",
       "============================================================\n",
@@ -773,7 +773,7 @@
       "  RandomForest: 0.209\n",
       "  ExtraTrees: 0.202\n",
       "  GradientBoosting: 0.211\n",
-      "  LogisticRegression: 0.139\n",
+      "  LogisticRegression: 0.137\n",
       "  SVM: 0.098\n",
       "  KNN: 0.142\n",
       "\n",
@@ -826,10 +826,10 @@
       "🔍 MODEL VALIDATION INSIGHTS\n",
       "============================================================\n",
       "5-Fold CV: 0.8372 (+/- 0.0307)\n",
-      "10-Fold CV: 0.8372 (+/- 0.0709)\n",
+      "10-Fold CV: 0.8349 (+/- 0.0729)\n",
       "15-Fold CV: 0.8382 (+/- 0.0756)\n",
       "\n",
-      "🏆 Expected Kaggle Score: 0.82+ (based on 0.8372 CV)\n",
+      "🏆 Expected Kaggle Score: 0.82+ (based on 0.8349 CV)\n",
       "\n",
       "🎉 Enhanced Analysis Complete!\n",
       "This model should achieve 0.82+ accuracy on the leaderboard!\n",
@@ -1317,19 +1317,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "c84f45ce",
+   "id": "e7ffe61d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-08-14T02:44:13.897020Z",
-     "iopub.status.busy": "2025-08-14T02:44:13.896785Z",
-     "iopub.status.idle": "2025-08-14T02:45:45.845964Z",
-     "shell.execute_reply": "2025-08-14T02:45:45.844881Z"
+     "iopub.execute_input": "2025-08-15T07:03:43.942274Z",
+     "iopub.status.busy": "2025-08-15T07:03:43.941634Z",
+     "iopub.status.idle": "2025-08-15T07:05:58.936685Z",
+     "shell.execute_reply": "2025-08-15T07:05:58.935866Z"
     },
     "papermill": {
-     "duration": 91.960116,
-     "end_time": "2025-08-14T02:45:45.847030",
+     "duration": 135.021952,
+     "end_time": "2025-08-15T07:05:58.951861",
      "exception": false,
-     "start_time": "2025-08-14T02:44:13.886914",
+     "start_time": "2025-08-15T07:03:43.929909",
      "status": "completed"
     },
     "tags": []
@@ -1368,7 +1368,7 @@
       "Training GradientBoosting...\n",
       "  CV Score: 0.82249 (+/- 0.08094)\n",
       "Training LogisticRegression...\n",
-      "  CV Score: 0.81582 (+/- 0.07346)\n",
+      "  CV Score: 0.81469 (+/- 0.07408)\n",
       "Training SVM...\n",
       "  CV Score: 0.79222 (+/- 0.11098)\n",
       "Training MLPClassifier...\n",
@@ -1390,8 +1390,8 @@
       "  LightGBM: 0.127\n",
       "  GradientBoosting: 0.126\n",
       "  ExtraTrees: 0.125\n",
-      "  LogisticRegression: 0.122\n",
-      "  SVM: 0.108\n",
+      "  LogisticRegression: 0.121\n",
+      "  SVM: 0.109\n",
       "\n",
       "🎯 THRESHOLD OPTIMIZATION\n",
       "======================================================================\n",
@@ -1410,7 +1410,7 @@
       "  LightGBM: 0.82377\n",
       "  GradientBoosting: 0.82249\n",
       "  ExtraTrees: 0.82041\n",
-      "  LogisticRegression: 0.81582\n",
+      "  LogisticRegression: 0.81469\n",
       "  SVM: 0.79222\n",
       "\n",
       "Ensemble Predictions Summary:\n",
@@ -2059,14 +2059,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 250.609995,
-   "end_time": "2025-08-14T02:45:48.475328",
+   "duration": 369.783453,
+   "end_time": "2025-08-15T07:06:01.584425",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-08-14T02:41:37.865333",
+   "start_time": "2025-08-15T06:59:51.800972",
    "version": "2.6.0"
   }
  },
